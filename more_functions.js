@@ -3,7 +3,9 @@
 /////#1
 
 function displayMailingLable(myName, myAddress, myCity, myState, myZip) {
-  console.log(myName, myAddress, myCity, myState, myZip);
+  console.log(myName);
+  console.log(myAddress);
+  console.log(myCity + ",",myState,myZip)
 }
 displayMailingLable("Javier Gdovic", "5615 Phillips Ave. apt.#4", "Pittsburgh", "Pa", "15217");
 displayMailingLable("Kenny Pickett", "412 Heinz Ave.", "Pittsburgh", "Pa", "4128214")
