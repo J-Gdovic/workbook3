@@ -12,16 +12,12 @@ function toggleParagraph() {
     if (display == "none"){
         detailsPagrpaph.style.display = "block";
     }
-    
+
     else{
         detailsPagrpaph.style.display = "none";
     }
-    
+} 
 
-
-
-    
-}
 
 // connect the functions to the  events(wire up)
 clickH3.onclick = toggleParagraph;

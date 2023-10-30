@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ACME Car Rental</title>
+  </head>
+  <body>
+    <main>
+        <h1>ACME Car Rental</h1>
+
+      <label for="pickpDateTextbox">Pickup date:</label>
+      <input type="date" name="date-days" id="pickpDateTextbox"/ >
+
+      <label for="numberOfDaysTextbox">Number of days:</label>
+      <input type="text" name="date-days" id="numberOfDaysTextbox" />
+
+      <h3>Option</h3>
+
+      <input type="checkbox" name="option-checkbox" id="tollTagCheckbox" />
+      <label for="tollTagCheckbox">Electronic Toll Tag ($3.95/day)</label>
+
+      <input type="checkbox" name="option-checkbox" id="gpsCheckbox" />
+      <label for="gpsCheckbox">GPS ($2.95/day)</label>
+
+      <input type="checkbox" name="option-checkbox" id="roadSideAssistanceCheckbox" />
+      <label for="roadSideAssistanceCheckbox">Roadside Assistance ($2.95/day)</label>
+
+      <h3>Under 25</h3>
+
+      <label for="noRadio">No</label>
+      <input type="radio" name="over-under" id="noRadio" />
+
+      <label for="yesRadio">Yes</label>
+      <input type="radio" name="over-under" id="yesRadio" />
+
+    <br>
+
+      <button id="estimatedCostButton">Estimated Total Cost</button>
+      <br>
+      <br>
+
+      
+      <div class="">
+      <label for="carCost">Car Rental:</label>
+      <input type="text" id="carCost">
+      <br>
+      <br>
+      <label for="optionsCost">Options:</label>
+      <input type="text" id="optionsCost">
+      <br>
+      <br>
+      <label for="under25Cost">Under 25 surcharge:</label>
+      <input type="text" id="under25Cost">
+      <br>
+      <br>
+      <br>
+      <label for="totalCost">Total Due:</label>
+      <input type="text" id="totalCost">
+      </div>
+
+
+
+    </main>
+    <script src="script/carrental.js"></script>
+  </body>
+</html>
