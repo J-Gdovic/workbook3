@@ -2,9 +2,15 @@
 
 ///exercise 1
 
-function convertFtoC((fahrenheit - 32)* 5/9) {
- let celcius = convertFtoC((fahrenheit - 32)* 5/9);
- return celcius;
+
+
+
+function convertFtoC(farenheitTemperature) {
+    const celsiusTemperature = (farenheitTemperature -32)*(5/9);
+    return celsiusTemperature
+    
 }
-let fahrenheit =23;
-convertFtoC();
+
+const currentTemp =92;
+const celsiusTemp = convertFtoC(currentTemp);
+console.log(celsiusTemp.toFixed(2));
